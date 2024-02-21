@@ -1,5 +1,4 @@
 import random
-import string
 import headerz
 import shlex, subprocess
 
