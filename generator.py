@@ -3,8 +3,7 @@ import string
 import headerz
 import shlex, subprocess
 
-# Getting Hex upper chars
-hexChars = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "a", "b", "c", "d", "e", "f", ]
+hexChars = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "a", "b", "c", "d", "e", "f"]
 
 # Generating random filename
 filename = f'{"".join([random.choice(hexChars) for i in range(0,20)]).upper()}.wav'
